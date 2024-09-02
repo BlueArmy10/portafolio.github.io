@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="venta de pianos" />
+        <title>Venta de pianos</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header id="header"> 
+            <img id="header-img" src="https://img.freepik.com/vector-premium/teclado-piano-sobre-ilustracion-fondo-negro_185757-1726.jpg"/>
+            <p id="name">Piano Shop</p>
+            <nav id="nav-bar">
+                <a href="#section1" class="nav-link">Características</a>
+                <a href="#section2" class="nav-link">¿Cómo funciona?</a>
+                <a href="#section3" class="nav-link">Precios</a>
+            </nav>
+        </header>
+    
+        <main> 
+            <section id="inicio">
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                    <label for="email">Ingresa su correo si desea que contactemos con usted para más información: </label><br>
+                    <input id="email" name="email" placeholder="nombre@ejemplo.com" type="email" required></input>
+                    <input type="submit" id="submit" value="Enviar">
+                </form>
+            </section>
+
+            <section id="section1">
+                <hr class="section-divider"></hr>
+                <h2>Características</h2>
+                <div id="caracteristica1">
+                    <img src="https://images.vexels.com/content/134897/preview/100-percent-premium-badge-fb02f1.png" width="100"/>
+                    <div class="text-container">
+                        <h3>Materiales de primera calidad</h3>
+                        <p>Nuestros pianos están fabricados con las maderas más finas, obtenidas localmente. Esto garantiza la durabilidad y calidad de tu compra.</p>
+                    </div>
+                </div>
+
+                <div id="caracteristica2">
+                    <img src="https://images.vexels.com/media/users/3/201229/isolated/preview/26af8fe5242206c8f58f0087a57a383f-camion-con-icono-de-color-de-corazon.png" id="imagen3"/>
+                    <div class="text-container">
+                        <h3>Envío Rápido</h3>
+                        <p>Nos aseguramos de que recibas tu piano tan pronto como lo hayamos terminado de fabricar. Además, ofrecemos devoluciones gratuitas si no estás satisfecho.</p>
+                    </div>
+                </div>
+
+                <div id="caracteristica3">
+                    <img src="https://images.vexels.com/media/users/3/153952/isolated/preview/781e10e410886783b84460790e800143-icono-de-trazo-de-color-de-escudo-de-garrapata.png"></a>
+                    <div class="text-container">
+                        <h3>Garantía de Calidad</h3>
+                        <p>Con cada compra, nos comprometemos a verificar que no haya daños ni defectos en el producto, y probaremos el tono y la afinación del piano para asegurar su óptimo rendimiento.</p>  
+                    </div>
+                </div>
+            </section>
+
+            <section id="section2">
+                <hr class="section-divider"></hr>
+                <h2>¿Cómo funciona?</h2>
+                <iframe id="video" src="https://www.youtube.com/embed/t_Kd_G7p6ZQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <hr class="section-divider"></hr>
+            
+            <section id="section3">
+                <h2>Precios</h2>
+                <div class="product">
+                    <h2>Piano Vertical</h2>
+                    <div class="price">600€</div>
+                    <p><span class="bold">Tipo:</span> Vertical</p>
+                    <p><span class="bold">Teclado:</span> 88 teclas</p>
+                    <p><span class="bold">Material:</span> Madera sólida</p>
+                    <p><span class="bold">Dimensiones:</span> 145 x 55 x 115 cm</p>
+                    <a href="#" class="select-button">Seleccionar</a>
+                </div>
+
+                <div class="product">
+                    <h2>Piano de Cola</h2>
+                    <div class="price">900€</div>
+                    <p><span class="bold">Tipo:</span> Cola</p>
+                    <p><span class="bold">Teclado:</span> 88 teclas</p>
+                    <p><span class="bold">Material:</span> Madera de calidad</p>
+                    <p><span class="bold">Dimensiones:</span> 155 x 100 x 100 cm</p>
+                    <a href="#" class="select-button">Seleccionar</a>
+                </div>
+
+                <div class="product">
+                    <h2>Piano Digital</h2>
+                    <div class="price">1200€</div>
+                    <p><span class="bold">Tipo:</span> Digital</p>
+                    <p><span class="bold">Teclado:</span> 88 teclas con acción de martillo</p>
+                    <p><span class="bold">Características:</span> Sonido similar al acústico, conectividad MIDI</p>
+                    <p><span class="bold">Dimensiones:</span> 140 x 35 x 85 cm</p>
+                    <a href="#" class="select-button">Seleccionar</a>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

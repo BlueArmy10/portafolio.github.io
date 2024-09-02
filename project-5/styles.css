@@ -1,0 +1,99 @@
+:root {
+    --background-color: #e8debe;
+    --primary-color: #5b7179;
+    --border-color: #f7f7f7;
+    --shadow-color: rgba(0, 0, 0, 0.5);
+    --font-family: "Barlow", sans-serif;
+    --font-family-body: Arial, sans-serif;
+}
+
+body, html {
+    background-color: var(--background-color);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family-body);
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0 0 30px 0; 
+    width: 400px;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    font-weight: 900;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px black;
+    color: var(--primary-color);
+}
+
+#input {
+    width: 400px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+    box-shadow: 2px 2px 4px var(--shadow-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    opacity: 0.5;
+    border: 2px solid var(--border-color);
+    border-radius: 5px;
+    padding: 8px;
+    width: 200px;
+    font-family: var(--font-family);
+}
+
+button {
+    border: 2px solid var(--primary-color);
+    border-radius: 5px;
+    padding: 8px 10px;
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: var(--font-family);
+}
+
+button:hover {
+    background-color: #eccd67; 
+}
+
+#output {
+    display: none;
+    font-family: var(--font-family);
+    font-size: 20px;
+    margin-top: 30px;
+    width: 400px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--border-color);
+    border-radius: 15px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px var(--shadow-color);
+}

@@ -1,0 +1,346 @@
+/* Estilos globales */
+body {
+    background-color: #e1e6d3;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Barra superior */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4e5861;
+    color: white;
+    z-index: 1000;
+    min-height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    align-items: center; 
+    padding: 0 10px; 
+    box-sizing: border-box; 
+}
+
+#navbar {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+#navbar li {
+    margin: 5px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem; 
+    padding: 10px 15px; 
+    display: block;
+    line-height: 1.2; 
+}
+
+/* Efecto hover */
+#navbar a:hover {
+    color: #b1ccc4;
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    #navbar a {
+        font-size: 1.2rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    #navbar a {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 480px) {
+    #navbar a {
+        font-size: 0.9rem; 
+    }
+}
+
+
+/* Estilos para texto */
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+    color: #5b5d61;
+}
+
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    text-align: center;
+    font-size: 35px;
+    color: #4e5861;
+    margin: 20px 80px;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 50px 30px;
+    padding-top: 250px; 
+}
+/* Presentación */
+#welcome-section {
+    text-align: center;
+    padding-top: 120px; 
+}
+
+h1 {
+    font-size: 70px;
+    color: #b1ccc4;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #4e5861;
+    margin: 5px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    scroll-margin-top: 70px; 
+}
+
+h4::before {
+    content: "";
+    display: block;
+    height: 70px; /* Ajusta este valor según la altura de tu barra de navegación */
+    margin-top: -70px; /* Este valor debe coincidir con la altura */
+}
+
+h5 {
+    color: #4e5861;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+#perfil {
+    margin-top: 80px;
+    font-size: 18px;
+}
+
+/* Listas */
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#habilidades-tecnicas ul {
+    list-style-type: none;
+    margin-left: 8px;
+}
+
+.minuscula {
+    text-transform: lowercase;
+}
+
+#habilidades-tecnicas h5 {
+    margin-top: 5px;
+}
+
+#habilidades-tecnicas ul {
+    column-count: 2; 
+    column-gap: 50px; 
+    padding: 10px; 
+}
+
+
+/* Efectos en hover/focus */
+#perfil:hover,
+h2:hover,
+h1:hover,
+h3:hover {
+    transform: scale(1.1) ;
+}
+
+/* Curriculum */
+#cv {
+    padding-top: 80px; 
+    margin-top: -80px; 
+}
+
+
+#tabla-de-contenido {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#indice {
+    list-style: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background: #ffff;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    color: #4e5861;
+}
+
+#indice li {
+    margin: 0;
+    display: inline;
+}
+
+#indice a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    padding: 0 15px; 
+    line-height: 2;
+}
+#indice li:not(:last-child)::after {
+    content: " - ";
+    margin: 0 5px; 
+}
+
+#indice a:hover {
+    color: #b1ccc4;
+}
+
+/* Sección de proyectos */
+#projects {
+    padding-top: 80px; /* Ajusta este valor según la altura de tu barra de navegación */
+    margin-top: -80px; /* Compensa el padding para mantener el margen correcto */
+}
+.projects-section {
+    padding: 20px;
+}
+
+/* Cuadrícula de proyectos */
+.projects-grid {
+    display: grid;
+    gap: 50px; 
+    grid-template-columns: repeat(3, 1fr); 
+    align-items: start;
+}
+
+.project:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo Polaroid para cada proyecto */
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    padding: 10px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-decoration: none;
+}
+
+
+/* Imagen del proyecto */
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px; 
+}
+
+/* Título del proyecto */
+.project-title {
+    margin: 10px 0 0 0;
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family:  'Roboto', sans-serif;
+    line-height: 2; 
+    display: block; 
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+/* Contacto */
+#contact p {
+    text-align: center;
+    line-height: 2;
+    margin: 20px;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.icon-link {
+    display: inline-block;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.icon-linkedin {
+    width: 32px;
+    height: 32px;
+}
+
+.icon-tryhackme {
+    width: 55px;
+    height: 30px;
+}
+
+.icon-github{
+    width: 60px;
+    height: 32px;
+}
+
+.icon-linkedin:hover,
+.icon-tryhackme:hover, 
+.icon-github:hover {
+    transform: scale(1.5);
+}

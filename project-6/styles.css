@@ -1,0 +1,109 @@
+:root {
+    --font-family: "Lato", sans-serif;
+}
+
+body, html {
+    background-color: #8b85b1;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden; 
+}
+
+#contenido {         
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; 
+    padding-top: 5%; 
+    padding-bottom: 5%;
+}
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    width: 70%;
+    color: #f6f5fc;
+    padding-bottom: 20px;  
+
+}
+#contorno_telefono {
+    position: relative; 
+    width: 200px; 
+    height: 400px; 
+    border: 16px solid #252527; 
+    border-radius: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    background-color: #252527
+; 
+}
+
+#camara{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 3px; 
+    height: 3px; 
+    background-color: #3e3e3b; 
+    border-radius: 50%; 
+    border: 5px solid #302f2c
+}
+
+#pantalla{
+    position: absolute;
+    top: 25px;
+    width: 200px; 
+    height: 330px; 
+    background-color: #eeeae1;
+}
+
+#botones {
+    position: absolute;
+    bottom: 15px;
+    display: flex;
+    gap: 20px;
+    left: 50%; 
+    transform: translateX(-50%);
+    font-family: var(--font-family);
+
+}
+
+#check-btn:hover, #clear-btn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+p {
+    font-family: var(--font-family);
+}
+
+#user-input{
+    border: 1px solid #424244;
+    border-radius: 5px;
+    height: 30px; 
+    background-color: #fff;
+}
+
+#boton_inicio {
+    position: absolute;
+    left: 50%;
+    top: 340px;
+    transform: translateX(-50%);
+    width: 30px; 
+    height: 30px; 
+    background-color: #252527; 
+    border-radius: 50%; 
+    border: 2px solid #424244;
+}
+
+#results-div {
+    position: absolute;
+    width: auto; /* Ajusta el ancho al contenido */
+    max-width: 80%; /* Limita el ancho máximo */
+    padding: 20px; /* Agrega espacio interno */
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--font-family)
+}
