@@ -256,6 +256,10 @@ a {
     color: #b1ccc4;
 }
 
+#publicaciones  {
+    text-align: justify;
+}
+
 /* Sección de proyectos */
 #projects {
     padding-top: 80px;
