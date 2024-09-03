@@ -210,8 +210,10 @@ h3:hover {
     margin-top: 20px;
     background: #ffff;
     border-radius: 5px;
-    display: inline-block;
-    position: relative;
+    display: block;
+    max-width: 80%; 
+    margin-left: 10vw; 
+    margin-right: 10vw; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
