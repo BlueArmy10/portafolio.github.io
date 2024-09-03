@@ -91,9 +91,10 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px; 
     text-align: center;
-    font-size: 35px;
+    font-size: 5vw; 
     color: #4e5861;
-    margin: 20px 80px;
+    margin: 20px auto;
+    width: 90%;
 }
 
 /* Secciones */
