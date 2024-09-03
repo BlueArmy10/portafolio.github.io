@@ -131,8 +131,8 @@ h4 {
 h4::before {
     content: "";
     display: block;
-    height: 70px; /* Ajusta este valor según la altura de tu barra de navegación */
-    margin-top: -70px; /* Este valor debe coincidir con la altura */
+    height: 70px;
+    margin-top: -70px;
 }
 
 h5 {
@@ -238,8 +238,8 @@ a {
 
 /* Sección de proyectos */
 #projects {
-    padding-top: 80px; /* Ajusta este valor según la altura de tu barra de navegación */
-    margin-top: -80px; /* Compensa el padding para mantener el margen correcto */
+    padding-top: 80px;
+    margin-top: -80px;
 }
 .projects-section {
     padding: 20px;
