@@ -172,14 +172,22 @@ li {
     text-transform: lowercase;
 }
 
-#habilidades-tecnicas h5 {
-    margin-top: 5px;
+#habilidades-tecnicas h5,  #habilidades-tecnicas p{
+    margin: 0; 
+    padding: 0; 
 }
 
 #habilidades-tecnicas ul {
     column-count: 2; 
-    column-gap: 50px; 
-    padding: 10px; 
+    column-gap: 5vw; 
+    padding: 0; 
+    list-style-type: none;
+    margin: 0;
+}
+
+#habilidades-tecnicas li {
+    break-inside: avoid; 
+    margin-bottom: 20px;
 }
 
 
