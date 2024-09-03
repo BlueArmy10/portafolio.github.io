@@ -148,6 +148,10 @@ h5 {
     font-size: 18px;
 }
 
+.separador {
+    color: #b1ccc4;
+}
+
 /* Listas */
 ul {
     list-style-type: disc;
