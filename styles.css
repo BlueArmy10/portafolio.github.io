@@ -177,6 +177,10 @@ li {
     padding: 0; 
 }
 
+#habilidades-tecnicas h5 {
+    margin-bottom: 10px; 
+}
+
 #habilidades-tecnicas ul {
     column-count: 2; 
     column-gap: 5vw; 
@@ -188,8 +192,10 @@ li {
 #habilidades-tecnicas li {
     break-inside: avoid; 
     margin-bottom: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
 }
-
 
 /* Efectos en hover/focus */
 #perfil:hover,
