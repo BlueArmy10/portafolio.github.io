@@ -131,13 +131,8 @@ h4 {
 h4::before {
     content: "";
     display: block;
-<<<<<<< HEAD
-    height: 70px; 
-    margin-top: -70px; 
-=======
     height: 70px;
     margin-top: -70px;
->>>>>>> 7f0869dd9faf7d3b023341a6dae66b9b9705f5a0
 }
 
 h5 {
@@ -152,17 +147,11 @@ h5 {
     margin-top: 80px;
     font-size: 18px;
 }
-<<<<<<< HEAD
-.separador {
-    color: #b1ccc4;
-}
-=======
 
 .separador {
     color: #b1ccc4;
 }
 
->>>>>>> 7f0869dd9faf7d3b023341a6dae66b9b9705f5a0
 /* Listas */
 ul {
     list-style-type: disc;
@@ -182,10 +171,6 @@ li {
     margin: 0; 
     padding: 0; 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 7f0869dd9faf7d3b023341a6dae66b9b9705f5a0
 #habilidades-tecnicas h5 {
     margin-bottom: 10px; 
 }
@@ -271,13 +256,8 @@ a {
 
 /* Sección de proyectos */
 #projects {
-<<<<<<< HEAD
-    padding-top: 80px; 
-    margin-top: -80px; 
-=======
     padding-top: 80px;
     margin-top: -80px;
->>>>>>> 7f0869dd9faf7d3b023341a6dae66b9b9705f5a0
 }
 .projects-section {
     padding: 20px;
