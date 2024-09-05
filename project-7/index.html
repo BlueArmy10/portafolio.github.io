@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content=" aplicación de caja registradora que devolverá el cambio al cliente según el precio del artículo, la cantidad de efectivo proporcionada por el cliente y la cantidad de efectivo en el cajón de efectivo." />
+    <title> creación de una caja registradora </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <main>
+        <div id="container">
+            <h1>Proyecto de caja registradora</h1>
+            <div id="content">
+                <div id="input">
+                    <p>Ingrese el efectivo del cliente:</p>
+                    <input id="cash" type="number" />
+                    <button id="purchase-btn">Compra</button>
+                    <div id="change-due"></div>
+                </div>
+                <div class="cash-register">
+                    <div class="price-container">
+                        <div class="price" id="price"></div>
+                    </div>
+                    <div class="price-support"></div>
+                    <div class="screen-border">
+                        <div class="screen">
+                            <div class="change-detail">
+                                <p><span class="bold size">Cambio:</span></p>
+                                <p id="cash-in-drawer"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="screen-support"></div>
+                    <div class="screen-base"></div>
+                    <div class="cash-drawer">
+                        <div class="drawer-button"></div>
+                        <div class="drawer-compartment"></div>
+                    </div>
+                </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
