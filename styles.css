@@ -91,9 +91,10 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 1px; 
     text-align: center;
-    font-size: 35px;
+    font-size: 35px; 
     color: #4e5861;
-    margin: 20px 80px;
+    margin: 20px auto;
+    width: 90%;
 }
 
 /* Secciones */
@@ -130,8 +131,8 @@ h4 {
 h4::before {
     content: "";
     display: block;
-    height: 70px; /* Ajusta este valor según la altura de tu barra de navegación */
-    margin-top: -70px; /* Este valor debe coincidir con la altura */
+    height: 70px; 
+    margin-top: -70px; 
 }
 
 h5 {
@@ -146,7 +147,9 @@ h5 {
     margin-top: 80px;
     font-size: 18px;
 }
-
+.separador {
+    color: #b1ccc4;
+}
 /* Listas */
 ul {
     list-style-type: disc;
@@ -158,25 +161,33 @@ li {
     padding: 5px;
 }
 
-#habilidades-tecnicas ul {
-    list-style-type: none;
-    margin-left: 8px;
-}
-
 .minuscula {
     text-transform: lowercase;
 }
 
+#habilidades-tecnicas h5,  #habilidades-tecnicas p{
+    margin: 0; 
+    padding: 0; 
+}
 #habilidades-tecnicas h5 {
-    margin-top: 5px;
+    margin-bottom: 10px; 
 }
 
 #habilidades-tecnicas ul {
     column-count: 2; 
-    column-gap: 50px; 
-    padding: 10px; 
+    column-gap: 5vw; 
+    padding: 0; 
+    list-style-type: none;
+    margin: 0;
 }
 
+#habilidades-tecnicas li {
+    break-inside: avoid; 
+    margin-bottom: 20px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+}
 
 /* Efectos en hover/focus */
 #perfil:hover,
@@ -205,8 +216,10 @@ h3:hover {
     margin-top: 20px;
     background: #ffff;
     border-radius: 5px;
-    display: inline-block;
-    position: relative;
+    display: block;
+    max-width: 80%; 
+    margin-left: 10vw; 
+    margin-right: 10vw; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -235,10 +248,14 @@ a {
     color: #b1ccc4;
 }
 
+#publicaciones  {
+    text-align: justify;
+}
+
 /* Sección de proyectos */
 #projects {
-    padding-top: 80px; /* Ajusta este valor según la altura de tu barra de navegación */
-    margin-top: -80px; /* Compensa el padding para mantener el margen correcto */
+    padding-top: 80px; 
+    margin-top: -80px; 
 }
 .projects-section {
     padding: 20px;
