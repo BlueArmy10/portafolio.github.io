@@ -87,6 +87,7 @@ async function searchPokemon(query) {
     } catch (error) {
         clearPokemonInfo();
         resultDiv.style.display = "none";
+        table.style.display = "none";
         defaultImage.style.display = "block";
         alert(error.message);
         console.error(`Error: ${error.message}`);
