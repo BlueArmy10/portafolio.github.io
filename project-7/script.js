@@ -1,35 +1,36 @@
 // Variables Globales
 const price = 19.5;
 let cid = [
-    ['MONEDAS DE 1 CÉNT.', 5.00],
-    ['MONEDAS DE 2 CÉNT.', 5.00],
-    ['MONEDAS DE 5 CÉNT.', 5.00],
-    ['MONEDAS DE 10 CÉNT.', 5.00],
-    ['MONEDAS DE 20 CÉNT.', 10.00],
-    ['MONEDAS DE 50 CÉNT.', 10.00],
-    ['MONEDAS DE 1 €', 20.00],
-    ['MONEDAS DE 2 €', 10.00],
-    ['MONEDAS DE 5 €', 25.00],
-    ['MONEDAS DE 10 €', 30.00],
-    ['MONEDAS DE 20 €', 50.00],
-    ['MONEDAS DE 50 €', 100.00],
-    ['MONEDAS DE 100 €', 200.00]
+    ['1 CENT', 5.00],
+    ['2 CENT', 5.00],
+    ['5 CENT', 5.00],
+    ['10 CENT', 5.00],
+    ['20 CENT', 10.00],
+    ['50 CENT', 10.00],
+    ['1 €', 20.00],
+    ['2 €', 10.00],
+    ['5 €', 25.00],
+    ['10 €', 30.00],
+    ['20 €', 50.00],
+    ['50 €', 100.00],
+    ['100 €', 200.00],
+    ['200 €', 0.00]
 ];
 
 const currencyUnit = [
-    ['monedas de 1 cént.', 0.01],
-    ['monedas de 2 cént.', 0.02],
-    ['monedas de 5 cént.', 0.05],
-    ['monedas de 10 cént.', 0.10],
-    ['monedas de 20 cént.', 0.20],
-    ['monedas de 50 cént.', 0.50],
-    ['monedas de 1 €', 1.00],
-    ['monedas de 2 €', 2.00],
-    ['monedas de 5 €', 5.00],
-    ['monedas de 10 €', 10.00],
-    ['monedas de 20 €', 20.00],
-    ['monedas de 50 €', 50.00],
-    ['monedas de 100 €', 100.00]
+    ['1 cent.', 0.01],
+    ['2 cent.', 0.02],
+    ['5 cent.', 0.05],
+    ['10 cent.', 0.10],
+    ['20 cent.', 0.20],
+    ['50 cent.', 0.50],
+    ['1 €', 1.00],
+    ['2 €', 2.00],
+    ['5 €', 5.00],
+    ['10 €', 10.00],
+    ['20 €', 20.00],
+    ['50 €', 50.00],
+    ['100 €', 100.00]
 ];
 
 // Función para calcular el total de efectivo en el cajón

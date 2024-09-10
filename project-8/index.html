@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Build an app that will search for Pokémon by name or ID and display the results to the user." />
+    <title>Pokémon Search App</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Búsqueda de Pokémon</h1>
+    </header>
+    <main>
+        <div class="container-wrapper">
+            <div class="background-container container1"></div>
+            <div class="background-container container2"></div>
+            <div class="background-container container3"></div>
+            <div class="container">
+                <div class="search-wrapper">
+                    <label for="search-input">Buscar nombre o ID de Pokémon:</label>
+                    <div class="search-container">
+                        <input id="search-input" placeholder="Nombre o ID..." required />
+                        <button id="search-button">Buscar</button>
+                    </div>
+                </div>
+                <img id="defaultImage"
+                    src="https://cdnx.jumpseller.com/yetiplantillas/image/37068472/resize/540/540?1688140994"
+                    alt="Default image">
+                <div id="result-div">
+                    <div class="first-line">
+                        <p id="pokemon-name"></p>
+                        <p id="pokemon-id"></p>
+                    </div>
+                    <div class="second-line">
+                        <p id="weight"></p>
+                        <p id="height"></p>
+                    </div>
+                    <div id="sprite-container" class="sprite-container">
+                    </div>
+
+                    <div id="types"></div>
+                </div>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th id="base">Base</th>
+                            <th id="stats">Stats</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HP:</td>
+                            <td id="hp" class="center"></td>
+                        </tr>
+                        <tr>
+                            <td>Attack:</td>
+                            <td id="attack" class="center"></td>
+                        </tr>
+                        <tr>
+                            <td>Defense:</td>
+                            <td id="defense" class="center"></td>
+                        </tr>
+                        <tr>
+                            <td>Special Attack:</td>
+                            <td id="special-attack" class="center"></td>
+                        </tr>
+                        <tr>
+                            <td>Special Defense:</td>
+                            <td id="special-defense" class="center"></td>
+                        </tr>
+                        <tr>
+                            <td>Speed:</td>
+                            <td id="speed" class="center"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
