@@ -101,8 +101,8 @@ searchButton.addEventListener("click", () => {
         alert("Please enter a Pokémon name or ID.");
         return;
     }
-
-    // Realizar la búsqueda del Pokémon
     searchPokemon(searchValue);
+    searchInput.value = '';
+
 });
 
