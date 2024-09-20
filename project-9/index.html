@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Aplicación web que genera y muestra citas aleatorias extraídas de una base de datos de frases." />
+    <title>Máquina de citas aleatorias</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="d-flex justify-content-center align-items-center vh-100">
+        <div id="quote-box" class="text-center p-4 shadow rounded bg-white">
+            <div id="text" class="d-flex align-items-start mb-3">
+                <i class="bi bi-quote quote-icon"></i>
+                <span class="quote-content">Este es el texto de la cita.</span>
+            </div>
+            <div id="author" class="mb-3"></div>
+            <div class="d-flex justify-content-between align-items-center mb-10">
+                <div class="d-flex">
+                    <a id="tweet-quote" href="" target="_blank" class="btn"><i class="bi bi-twitter"></i></a>
+                    <a id="linkedin-quote" target="_blank" class="btn"><i class="bi bi-linkedin"></i></a>
+                </div>
+                <button id="new-quote" class="btn">Nueva cita</button>
+            </div>
+        </div>
+        <div id="creator" class="text-center">
+            <p>by Elena</p>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
