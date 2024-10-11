@@ -1,0 +1,33 @@
+Nombre,Tipo,Latitud,Longitud
+La Sagrada Familia,Monumento,41.4036,2.1744
+La Alhambra,Monumento,37.76,-3.88
+El Acueducto de Segovia,Monumento,40.9495,-4.1165
+La Mezquita-Catedral,Monumento,37.8782,-4.7792
+El Parque Güell,Monumento,41.4145,2.1527
+El Palacio Real,Monumento,40.4173,-3.714
+La Giralda,Monumento,37.3891,-5.9934
+El Guggenheim,Monumento,43.2630,-2.9344
+La Catedral de Santiago,Monumento,42.8806,-8.5464
+El Castillo de Alhambra,Monumento,37.76,-3.88
+La Rambla,Monumento,41.3809,2.1734
+El Teatro Romano,Monumento,38.9111,-6.3432
+El Parque de la Ciudadela,Monumento,41.3884,2.1844
+La Ciudad de las Artes y las Ciencias,Monumento,39.4543,-0.3484
+Las Médulas,Monumento,42.6484,-6.7763
+El Alcázar de Sevilla,Monumento,37.3861,-5.9932
+Montes de Toledo,Naturaleza,39.4262,-4.3825
+Teide (Tenerife),Naturaleza,28.2720,-16.6420
+Playa de la Concha,Naturaleza,43.3210,-1.9866
+Lago de Sanabria,Naturaleza,41.5081,-6.7732
+Sierra Nevada,Naturaleza,37.1040,-3.3540
+Volcán de Timanfaya,Naturaleza,29.0185,-13.8255
+Parque Natural de los Picos de Europa,Naturaleza,43.1841,-4.8712
+Playa de Las Catedrales,Naturaleza,43.5601,-7.0223
+Lago de Banyoles,Naturaleza,42.1152,2.7490
+Sierra de Guadarrama,Naturaleza,40.6493,-4.0140
+Cabo de Gata,Naturaleza,36.8032,-2.1704
+Río Ebro,Naturaleza,41.8371,0.5293
+Parque Natural de Doñana,Naturaleza,37.0143,-6.4675
+Montañas de la Costa Brava,Naturaleza,41.7656,3.2115
+Cañón del Río Lobos,Naturaleza,41.9822,-2.8824
+Playas de la Costa del Sol,Naturaleza,36.6430,-4.7327
